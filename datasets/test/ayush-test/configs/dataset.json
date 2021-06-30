@@ -1,0 +1,44 @@
+{
+  "inputProperties" : {
+    "properties" : { }
+  },
+  "commonProperties" : {
+    "properties" : {
+      "testData" : {
+        "data" : [ [ "ayush", 21 ], [ "aditya", 30 ], [ "raj", 35 ], [ "arushi", 18 ] ],
+        "schema" : {
+          "type" : "struct",
+          "fields" : [ {
+            "name" : "name",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : { }
+          }, {
+            "name" : "age",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : { }
+          } ]
+        }
+      }
+    }
+  },
+  "datasetId" : "2753",
+  "schema" : {
+    "type" : "struct",
+    "fields" : [ {
+      "name" : "name",
+      "type" : "string",
+      "nullable" : true,
+      "metadata" : { }
+    }, {
+      "name" : "age",
+      "type" : "integer",
+      "nullable" : true,
+      "metadata" : { }
+    } ]
+  },
+  "datasetType" : "TestData",
+  "description" : "",
+  "dataFormat" : "custom"
+}

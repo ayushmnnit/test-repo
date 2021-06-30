@@ -1,0 +1,44 @@
+{
+  "datasetId" : "2754",
+  "schema" : {
+    "type" : "struct",
+    "fields" : [ {
+      "name" : "name",
+      "type" : "string",
+      "nullable" : true,
+      "metadata" : { }
+    }, {
+      "name" : "age",
+      "type" : "integer",
+      "nullable" : true,
+      "metadata" : { }
+    } ]
+  },
+  "datasetType" : "TestData",
+  "description" : "",
+  "commonProperties" : {
+    "properties" : {
+      "testData" : {
+        "data" : [ ],
+        "schema" : {
+          "type" : "struct",
+          "fields" : [ {
+            "name" : "name",
+            "type" : "string",
+            "nullable" : true,
+            "metadata" : { }
+          }, {
+            "name" : "age",
+            "type" : "integer",
+            "nullable" : true,
+            "metadata" : { }
+          } ]
+        }
+      }
+    }
+  },
+  "dataFormat" : "custom",
+  "outputProperties" : {
+    "properties" : { }
+  }
+}
